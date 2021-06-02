@@ -17,12 +17,14 @@ const Index = () => (
       <div className="container mx-auto">
         <div className="text-center">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            We are Cerberus Research, Inc. 
+            For Professinal DeFi Traders... 
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            We'll serve the significat insight about DeFi market.
+            <h1>We are Cerberus Research, Inc.</h1>
+            We'll serve the significant insight about DeFi market.
           </p>
           <p className="mt-8 md:mt-12">
+            {/*TODO: Add onHober func in <button> jumping for external link*/}
             <Button size="lg"><a style={{ color: "white" }} href={url}>Subscribe</a></Button>
           </p>
         </div>
@@ -44,7 +46,7 @@ const Index = () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">Service Two</p>
               <p className="mt-4">
-                PaperTrading Simulation Engine on DeFi 
+                Papertrading Simulation Engine
               </p>
             </Card>
           </div>
@@ -52,7 +54,7 @@ const Index = () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">Service Three</p>
               <p className="mt-4">
-                Advertisement and Token Salse, etc.
+                AI trading bot, DeFi specialized strategies, etc.
               </p>
             </Card>
           </div>
@@ -77,11 +79,10 @@ const Index = () => (
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Design And Plan Your Business Growth Steps
+            Papertrading Simulation Engine
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Once the market analysis process is completed our staff will search for opportunities
-            that are in reach
+            coming soon...
           </p>
         </div>
       }
@@ -91,11 +92,10 @@ const Index = () => (
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Search For Performance Optimization
+            AI trading bot, DeFi specialized strategies, etc.
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            With all the information in place you will be presented with an action plan that your
-            company needs to follow
+            coming soon...
           </p>
         </div>
       }

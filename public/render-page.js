@@ -6152,9 +6152,9 @@ const Index = () => (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)(_compone
   className: "text-center"
 }, (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)("h1", {
   className: "text-4xl lg:text-5xl xl:text-6xl font-bold leading-none"
-}, "We are Cerberus Research, Inc."), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)("p", {
+}, "For Professinal DeFi Traders..."), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)("p", {
   className: "text-xl lg:text-2xl mt-6 font-light"
-}, "We'll serve the significat insight about DeFi market."), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)("p", {
+}, (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)("h1", null, "We are Cerberus Research, Inc."), "We'll serve the significant insight about DeFi market."), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)("p", {
   className: "mt-8 md:mt-12"
 }, (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)(_components_Button__WEBPACK_IMPORTED_MODULE_1__.default, {
   size: "lg"
@@ -6188,7 +6188,7 @@ const Index = () => (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)(_compone
   className: "font-semibold text-xl"
 }, "Service Two"), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)("p", {
   className: "mt-4"
-}, "PaperTrading Simulation Engine on DeFi"))), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)("div", {
+}, "Papertrading Simulation Engine"))), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)("div", {
   className: "flex-1 px-3"
 }, (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)(_components_Card__WEBPACK_IMPORTED_MODULE_2__.default, {
   className: "mb-8"
@@ -6196,7 +6196,7 @@ const Index = () => (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)(_compone
   className: "font-semibold text-xl"
 }, "Service Three"), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)("p", {
   className: "mt-4"
-}, "Advertisement and Token Salse, etc.")))))), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)(_components_SplitSection__WEBPACK_IMPORTED_MODULE_6__.default, {
+}, "AI trading bot, DeFi specialized strategies, etc.")))))), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)(_components_SplitSection__WEBPACK_IMPORTED_MODULE_6__.default, {
   id: "services",
   primarySlot: (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)("div", {
     className: "lg:pr-32 xl:pr-48"
@@ -6212,18 +6212,18 @@ const Index = () => (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)(_compone
     className: "lg:pl-32 xl:pl-48"
   }, (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)("h3", {
     className: "text-3xl font-semibold leading-tight"
-  }, "Design And Plan Your Business Growth Steps"), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)("p", {
+  }, "Papertrading Simulation Engine"), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)("p", {
     className: "mt-8 text-xl font-light leading-relaxed"
-  }, "Once the market analysis process is completed our staff will search for opportunities that are in reach")),
+  }, "coming soon...")),
   secondarySlot: (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)(_svg_SvgCharts__WEBPACK_IMPORTED_MODULE_10__.default, null)
 }), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)(_components_SplitSection__WEBPACK_IMPORTED_MODULE_6__.default, {
   primarySlot: (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)("div", {
     className: "lg:pr-32 xl:pr-48"
   }, (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)("h3", {
     className: "text-3xl font-semibold leading-tight"
-  }, "Search For Performance Optimization"), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)("p", {
+  }, "AI trading bot, DeFi specialized strategies, etc."), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)("p", {
     className: "mt-8 text-xl font-light leading-relaxed"
-  }, "With all the information in place you will be presented with an action plan that your company needs to follow")),
+  }, "coming soon...")),
   secondarySlot: (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)(_svg_SvgCharts__WEBPACK_IMPORTED_MODULE_10__.default, null)
 }), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)("section", {
   id: "stats",
@@ -6261,7 +6261,7 @@ const Index = () => (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)(_compone
   size: "xl"
 }, (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)("a", {
   style: {
-    color: "black"
+    color: "white"
   },
   href: url
 }, "Subscribe")))));
