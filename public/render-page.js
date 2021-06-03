@@ -6200,7 +6200,7 @@ const Index = () => (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)(_compone
     className: "text-3xl font-semibold leading-tight"
   }, "DeFi Market Analysis"), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)("p", {
     className: "mt-8 text-xl font-light leading-relaxed"
-  }, "Our team of enthusiastic marketers will analyse and evaluate how your company stacks against the closest competitors")),
+  }, "We'll server the significant analytics about the rapidly growring DeFi market.")),
   secondarySlot: (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)(_svg_SvgCharts__WEBPACK_IMPORTED_MODULE_10__.default, null)
 }), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_11__.jsx)(_components_SplitSection__WEBPACK_IMPORTED_MODULE_6__.default, {
   reverseOrder: true,

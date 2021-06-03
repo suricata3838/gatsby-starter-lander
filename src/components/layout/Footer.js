@@ -6,6 +6,7 @@ const Footer = () => (
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Address</h2>
         <p className="mt-5">LIG bldg. 2-20-11 Kojima, Taito City, Tokyo  〒111-0056</p>
+        <p className="mt-5">kero.fi@protonmail.com</p>
       </div>
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Important Links</h2>
