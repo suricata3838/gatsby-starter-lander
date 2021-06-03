@@ -5922,31 +5922,27 @@ const Footer = () => (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("footer"
   className: "flex-1 px-3"
 }, (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("h2", {
   className: "text-lg font-semibold"
-}, "About Us"), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+}, "Address"), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
   className: "mt-5"
-}, "Ridiculus mus mauris vitae ultricies leo integer malesuada nunc.")), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+}, "LIG bldg. 2-20-11 Kojima, Taito City, Tokyo  \u3012111-0056")), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
   className: "flex-1 px-3"
 }, (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("h2", {
   className: "text-lg font-semibold"
 }, "Important Links"), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("ul", {
   className: "mt-4 leading-loose"
 }, (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", null, (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-  href: "https://codebushi.com"
-}, "Terms & Conditions")), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", null, (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-  href: "https://codebushi.com"
-}, "Privacy Policy")))), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+  href: "https://kero.substack.com/"
+}, "News Letter")))), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
   className: "flex-1 px-3"
 }, (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("h2", {
   className: "text-lg font-semibold"
 }, "Social Media"), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("ul", {
   className: "mt-4 leading-loose"
 }, (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", null, (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-  href: "https://dev.to/changoman"
-}, "Dev.to")), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", null, (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-  href: "https://twitter.com/HuntaroSan"
-}, "Twitter")), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", null, (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-  href: "https://github.com/codebushi/gatsby-starter-lander"
-}, "GitHub"))))));
+  href: "https://twitter.com/suricata3838"
+}, "CEO Twitter")), (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", null, (0,_emotion_core__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+  href: "https://angl.jp/norika_kizawa"
+}, "Angel Port"))))));
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
 
