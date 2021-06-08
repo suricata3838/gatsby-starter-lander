@@ -10,14 +10,14 @@ import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 
-let url="https://kero.substack.com/p/coming-soon";
+let newsletter_url = "https://kero.substack.com/p/coming-soon";
 const Index = () => (
   <Layout>
     <section className="pt-20 md:pt-40">
       <div className="container mx-auto">
         <div className="text-center">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            For Professinal DeFi Traders... 
+            For Professional DeFi Traders
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
             <h1>We are Cerberus Research, Inc.</h1>
@@ -25,7 +25,7 @@ const Index = () => (
           </p>
           <p className="mt-8 md:mt-12">
             {/*TODO: Add onHober func in <button> jumping for external link*/}
-            <Button size="lg"><a style={{ color: "white" }} href={url}>Subscribe</a></Button>
+            <Button size="lg"><a style={{ color: "white" }} href={newsletter_url}>Subscribe</a></Button>
           </p>
         </div>
       </div>
@@ -46,7 +46,7 @@ const Index = () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">Service Two</p>
               <p className="mt-4">
-                Papertrading Simulation Engine
+                Paper Trading Engine
               </p>
             </Card>
           </div>
@@ -54,7 +54,7 @@ const Index = () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">Service Three</p>
               <p className="mt-4">
-                AI trading bot, DeFi specialized strategies, etc.
+                AI trading bot, DeFi specialized strategies, and more!
               </p>
             </Card>
           </div>
@@ -67,7 +67,7 @@ const Index = () => (
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">DeFi Market Analysis</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            We'll server the significant analytics about the rapidly growring DeFi market.  
+            We'll serve you significant analytics about the rapidly growing DeFi market.  
           </p>
         </div>
       }
@@ -78,7 +78,7 @@ const Index = () => (
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Papertrading Simulation Engine
+            Paper Trading Engine
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
             coming soon...
@@ -91,7 +91,7 @@ const Index = () => (
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            AI trading bot, DeFi specialized strategies, etc.
+            AI trading bot, DeFi specialized strategies, and more!
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
             coming soon...
@@ -119,10 +119,10 @@ const Index = () => (
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
       <h3 className="text-5xl font-semibold">Don't miss our update!</h3>
       <p className="mt-8 text-xl font-light">
-        We'll provive our update in a newletter. 
+        We'll provide updates to you in a newsletter. 
       </p>
       <p className="mt-8">
-        <Button size="xl"><a style={{ color: "white" }} href={url}>Subscribe</a></Button>
+        <Button size="xl"><a style={{ color: "white" }} href={newsletter_url}>Subscribe</a></Button>
       </p>
     </section>
   </Layout>
