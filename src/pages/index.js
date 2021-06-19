@@ -101,7 +101,7 @@ const Index = () => (
         </div>
       }
       secondarySlot={
-        <div className="flex justify-end">
+        <div className="flex justify-center">
           <img src={ai} alt="Ai" height={500} width={350} />
         </div>
         }
