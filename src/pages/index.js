@@ -6,9 +6,11 @@ import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import StatsBox from '../components/StatsBox';
+import { TVWidgetChart }from '../components/TradingViewWidget';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
+import ai from '../svg/ai.jpg';
 
 let newsletter_url = "https://kero.substack.com/p/coming-soon";
 const Index = () => (
@@ -85,7 +87,7 @@ const Index = () => (
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<TVWidgetChart />}
     />
     <SplitSection
       primarySlot={
@@ -98,7 +100,11 @@ const Index = () => (
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={
+        <div className="flex justify-end">
+          <img src={ai} alt="Ai" height={500} width={350} />
+        </div>
+        }
     />
     <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
