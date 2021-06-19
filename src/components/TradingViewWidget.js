@@ -12,4 +12,4 @@ const TVWidgetChart = () => (
   />
 );
 
-export { TVWidgetChart};
+export { TVWidgetChart };

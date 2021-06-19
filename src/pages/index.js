@@ -11,6 +11,7 @@ import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 import ai from '../svg/ai.jpg';
+import chart from '../svg/TVWidgetChart.png';
 
 let newsletter_url = "https://kero.substack.com/p/coming-soon";
 const Index = () => (
@@ -87,7 +88,9 @@ const Index = () => (
           </p>
         </div>
       }
-      secondarySlot={<TVWidgetChart />}
+      secondarySlot={
+          <img src={chart} alt="Chart"/>
+        }
     />
     <SplitSection
       primarySlot={
@@ -102,7 +105,7 @@ const Index = () => (
       }
       secondarySlot={
         <div className="flex justify-center">
-          <img src={ai} alt="Ai" height={500} width={350} />
+          <img src={ai} alt="Ai" width={320} />
         </div>
         }
     />
