@@ -12,6 +12,7 @@ import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 import ai from '../svg/ai.jpg';
 import chart from '../svg/TVWidgetChart.png';
+import logo from '../svg/cerberus-logo.png'
 
 let newsletter_url = "https://kero.substack.com/p/coming-soon";
 const Index = () => (
@@ -19,12 +20,13 @@ const Index = () => (
     <section className="pt-20 md:pt-40">
       <div className="container mx-auto">
         <div className="text-center">
-          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            For Professional DeFi Traders
-          </h1>
+          <p className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
+            <h1>Empower creatives worldwide</h1>
+            <h1>with crypto finance.</h1>
+          </p>
           <p className="text-xl lg:text-2xl mt-6 font-light">
             <h1>We are Cerberus Research, Inc.</h1>
-            We'll serve the significant insight about DeFi market.
+            We provide crypto lending and real-time financial services for international collaborators.
           </p>
           <p className="mt-8 md:mt-12">
             {/*TODO: Add onHober func in <button> jumping for external link*/}
@@ -41,7 +43,7 @@ const Index = () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">Service One</p>
               <p className="mt-4">
-                DeFi Market Analysis
+                Streaming salary for international collaborators
               </p>
             </Card>
           </div>
@@ -49,7 +51,7 @@ const Index = () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">Service Two</p>
               <p className="mt-4">
-                Paper Trading Engine
+                Wallet integration to DeFi lending services and collateral management
               </p>
             </Card>
           </div>
@@ -57,7 +59,7 @@ const Index = () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">Service Three</p>
               <p className="mt-4">
-                AI trading bot, DeFi specialized strategies, and more!
+                Funding supprt for project owners through matching with crypto HODLers
               </p>
             </Card>
           </div>
@@ -68,9 +70,10 @@ const Index = () => (
       id="services"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">DeFi Market Analysis</h3>
+          <h3 className="text-3xl font-semibold leading-tight">Streaming Salary</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            We'll serve you significant analytics about the rapidly growing DeFi market.  
+            Fundamentally eliminates of financial difficulties caused by the time lag between contract/work start and payroll receipt.
+            This drastically reduces the cost for employers or investors to send money internationally on a regular basis.
           </p>
         </div>
       }
@@ -81,10 +84,11 @@ const Index = () => (
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Paper Trading Engine
+            Managed Wallet to access great yields in the emerging field of DeFi.  
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            coming soon...
+            Automatic operation of the unused balance of the wallet on the DeFi project.
+            Using virtual currencies (like JPYC or USDC) that are pegged to fiat currencies allows payees to receive their money without worrying about slippage.
           </p>
         </div>
       }
@@ -96,10 +100,10 @@ const Index = () => (
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            AI trading bot, DeFi specialized strategies, and more!
+            Funding supprt for project owners 
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            coming soon...
+            Long-term crypto holders can lend their purchasing power to Kero. We manage the lending of these funds to borrowers in JPY(C), and accrue rewards for those providing collateral.
           </p>
         </div>
       }
