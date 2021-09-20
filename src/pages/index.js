@@ -6,13 +6,13 @@ import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import StatsBox from '../components/StatsBox';
-import { TVWidgetChart }from '../components/TradingViewWidget';
+import { TVWidgetChart } from '../components/TradingViewWidget';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 import ai from '../svg/ai.jpg';
 import chart from '../svg/TVWidgetChart.png';
-import logo from '../svg/cerberus-logo.png'
+import logo from '../svg/cerberus-logo.png';
 
 let newsletter_url = "https://kero.substack.com/p/coming-soon";
 const Index = () => (
@@ -21,7 +21,7 @@ const Index = () => (
       <div className="container mx-auto">
         <div className="text-center">
           <p className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            <h1>Empower creatives worldwide</h1>
+            <h1>Empowering creatives worldwide</h1>
             <h1>with crypto finance.</h1>
           </p>
           <p className="text-xl lg:text-2xl mt-6 font-light">
@@ -29,7 +29,7 @@ const Index = () => (
             We provide crypto lending and real-time financial services for international collaborators.
           </p>
           <p className="mt-8 md:mt-12">
-            {/*TODO: Add onHober func in <button> jumping for external link*/}
+            {/*TODO: Add onHover func in <button> jumping for external link*/}
             <Button size="lg"><a style={{ color: "white" }} href={newsletter_url}>Subscribe</a></Button>
           </p>
         </div>
@@ -41,25 +41,25 @@ const Index = () => (
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service One</p>
+              <p className="font-semibold text-xl">Real-Time Finance</p>
               <p className="mt-4">
-                Streaming salary for international collaborators
+                Streaming salary enables your collaborators to access their funds exactly on time, when they need it.
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Two</p>
+              <p className="font-semibold text-xl">DeFi Integrations</p>
               <p className="mt-4">
-                Wallet integration to DeFi lending services and collateral management
+                Plays nicely with other DeFi lending and AMM services. Kero manages your collateral stake on Aave or Kashi.
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Three</p>
+              <p className="font-semibold text-xl">Funding Support</p>
               <p className="mt-4">
-                Funding supprt for project owners through matching with crypto HODLers
+                Kero matches trustworthy project owners with HODLers to maximize investment yield for everyone.
               </p>
             </Card>
           </div>
@@ -72,8 +72,7 @@ const Index = () => (
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">Streaming Salary</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Fundamentally eliminates of financial difficulties caused by the time lag between contract/work start and payroll receipt.
-            This drastically reduces the cost for employers or investors to send money internationally on a regular basis.
+            <strong>Worried about getting paid on&nbsp;time?</strong> Kero solves the time lag between contract/work start and payroll receipt, and drastically reduces the cost for employers or investors to move money internationally on a regular basis.
           </p>
         </div>
       }
@@ -84,26 +83,25 @@ const Index = () => (
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Managed Wallet to access great yields in the emerging field of DeFi.  
+            Managed Wallets
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Automatic operation of the unused balance of the wallet on the DeFi project.
-            Using virtual currencies (like JPYC or USDC) that are pegged to fiat currencies allows payees to receive their money without worrying about slippage.
+            <strong>Kero makes full use of your crypto portfolio.</strong> We manage the lending of these funds to borrowers in <a href="https://jpyc.jp/">JPYC</a>, and accrue rewards for those providing collateral.
           </p>
         </div>
       }
       secondarySlot={
-          <img src={chart} alt="Chart"/>
-        }
+        <img src={chart} alt="Chart" />
+      }
     />
     <SplitSection
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Funding supprt for project owners 
+            Funding supprt for project owners
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Long-term crypto holders can lend their purchasing power to Kero. We manage the lending of these funds to borrowers in JPY(C), and accrue rewards for those providing collateral.
+            <strong>Long-term crypto holders can lend their purchasing power to Kero.</strong> Using <em>fiat-pegged virtual currencies</em> (stablecoins) allows payees to receive their money without worrying about slippage.
           </p>
         </div>
       }
@@ -111,8 +109,9 @@ const Index = () => (
         <div className="flex justify-center">
           <img src={ai} alt="Ai" width={320} />
         </div>
-        }
+      }
     />
+    {/* remove this section for now -eli
     <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
         <LabelText className="text-gray-600">Our customers get results</LabelText>
@@ -129,10 +128,11 @@ const Index = () => (
         </div>
       </div>
     </section>
+    */}
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
-      <h3 className="text-5xl font-semibold">Don't miss our update!</h3>
+      <h3 className="text-5xl font-semibold">Don't miss out!</h3>
       <p className="mt-8 text-xl font-light">
-        We'll provide updates to you in a newsletter. 
+        Subscribe to our newsletter for news, offers and more.
       </p>
       <p className="mt-8">
         <Button size="xl"><a style={{ color: "white" }} href={newsletter_url}>Subscribe</a></Button>
