@@ -12,7 +12,7 @@ import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 import ai from '../svg/ai.jpg';
 import chart from '../svg/TVWidgetChart.png';
-import logo from '../svg/cerberus-logo.png'
+import logo from '../svg/cerberus-logo.png';
 
 let newsletter_url = "https://kero.substack.com/p/coming-soon";
 const Index = () => (
@@ -72,8 +72,7 @@ const Index = () => (
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">Streaming Salary</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Fundamentally eliminates financial difficulties caused by the time lag between contract/work start and payroll receipt.
-            This drastically reduces the cost for employers or investors to send money internationally on a regular basis.
+            <strong>Worried about getting paid on&nbsp;time?</strong> Kero solves the time lag between contract/work start and payroll receipt, and drastically reduces the cost for employers or investors to move money internationally on a regular basis.
           </p>
         </div>
       }
@@ -84,11 +83,10 @@ const Index = () => (
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Managed Wallet to access great yields in the emerging field of DeFi.
+            Managed Wallets
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Automatic operation of the unused balance of the wallet on the DeFi project.
-            Using virtual currencies (like JPYC or USDC) that are pegged to fiat currencies allows payees to receive their money without worrying about slippage.
+            <strong>Kero makes full use of your crypto portfolio.</strong> We manage the lending of these funds to borrowers in <a href="https://jpyc.jp/">JPYC</a>, and accrue rewards for those providing collateral.
           </p>
         </div>
       }
@@ -103,7 +101,7 @@ const Index = () => (
             Funding supprt for project owners
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Long-term crypto holders can lend their purchasing power to Kero. We manage the lending of these funds to borrowers in JPY(C), and accrue rewards for those providing collateral.
+            <strong>Long-term crypto holders can lend their purchasing power to Kero.</strong> Using <em>fiat-pegged virtual currencies</em> (stablecoins) allows payees to receive their money without worrying about slippage.
           </p>
         </div>
       }
