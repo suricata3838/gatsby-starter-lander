@@ -98,7 +98,7 @@ const Index = () => (
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Funding supprt for project owners
+            Funding support for project owners
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
             <strong>Long-term crypto holders can lend their purchasing power to Kero.</strong> Using <em>fiat-pegged virtual currencies</em> (stablecoins) allows payees to receive their money without worrying about slippage.
