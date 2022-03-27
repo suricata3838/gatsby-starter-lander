@@ -5,7 +5,7 @@ import Button from '../Button';
 
 let url = "https://kero.substack.com/p/coming-soon";
 const Header = () => (
-  <header className="sticky top-0 bg-white shadow">
+  <header className="bg-blue-900 sticky top-0 shadow">
     <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
       <div className="flex items-center">
         <div className="w-12 mr-1">
@@ -13,10 +13,10 @@ const Header = () => (
         </div>
       </div>
       <div className="flex mt-3 sm:mt-0">
-        <AnchorLink className="px-3" href="#features">
+        <AnchorLink className="px-4" style={{ color: "white" }} href="#features">
           Features
         </AnchorLink>
-        <AnchorLink className="px-3" href="#services">
+        <AnchorLink className="px-4" style={{ color: "white" }} href="#services">
           Services
         </AnchorLink>
         {/*
